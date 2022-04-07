@@ -1,4 +1,5 @@
 console.log("Hi fellow developer!")
+console.log("Checking...")
 
 var element = document.getElementById("email")
 element.addEventListener("click", copy_email)
