@@ -1,4 +1,4 @@
-console.log("Checking...")
+console.log("Hi fellow developer!")
 
 var element = document.getElementById("email")
 element.addEventListener("click", copy_email)
@@ -14,6 +14,5 @@ function copy_email()
     if (document.getElementById("alert") == null){
         document.getElementById("aff").append(alert_box);
         setTimeout(() => {document.getElementById("alert").remove()}, 5000);    
-    }
-    
+    }    
 }
