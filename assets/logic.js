@@ -13,7 +13,7 @@ function copy_email()
     alert_box.innerHTML = '<div id="alert" class="alert alert-primary text-center" role="alert"> Email has been copied to your clipboard. [gsnikhil333@gmail.com] </div>'
 
     if (document.getElementById("alert") == null){
-        document.getElementById("aff").append(alert_box);
+        document.getElementById("header").append(alert_box);
         setTimeout(() => {document.getElementById("alert").remove()}, 5000);    
     }    
 }
