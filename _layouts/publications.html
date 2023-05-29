@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include inpage_navigation.html backurl="/" text="Back" %}
+
+{{content}}
+
+{% assign publications = site.data.publications.publications | sort: 'year' | reverse %}
+{% for pub in publications %}
+<div>
+    <a href="{{pub.url}}" target="_blank">{{ pub.title }}</a>
+    <p style="margin-bottom: 0;"> {{pub.year}}, {{pub.conference}}, {{pub.pages}}</p>
+    <p>{{ pub.pre_authors }}{% if pub.pre_authors.size > 0 %}, {% endif %}  
+        <b><em>{{ pub.main_author }}</em></b>, {{ pub.post_authors }}</p>
+</div>
+{% endfor %}
