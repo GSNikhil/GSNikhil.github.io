@@ -4,7 +4,6 @@ title:  "Dynamic Line Following Robot"
 date:   2019-03-06
 tags: HTML CSS Javascript p5.js Arduino Firebase
 permalink: posts/:title.html
-img: /assets/img/favicon.jpg
 code: "https://github.com/GSNikhil/ACM-Project"
 ---
 
