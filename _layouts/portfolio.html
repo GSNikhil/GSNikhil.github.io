@@ -10,6 +10,9 @@ layout: default
 {% for post in sorted_posts %}
 <div>
     <h3> {{ post.title }}</h3>
+    {% if post.tags %}
+        <small>Skills: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+    {% endif %}
     <div>{{ post.excerpt |  markdownify | remove: "<p>" | remove: "</p>"}}  <a href="{{post.url}}"> more...</a> </div>
     <br>
 </div>
