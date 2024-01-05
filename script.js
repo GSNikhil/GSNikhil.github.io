@@ -84,3 +84,6 @@ projects.forEach(element => {
     </div> \
 </article>';
 });
+
+console.log("I've changed my website some 7th time now. I've tried it all - Angular, Jekyll, Esoteric CSS templates, Wordpress,... And I've made the\
+current website using HTML, very-light CSS and vanilla JS. Kill me if I decide to use someother framework/tool again to create my website!")
