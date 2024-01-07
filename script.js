@@ -1,5 +1,13 @@
 let projects = [
     {
+        "year": 2023,
+        "title": "Implementing MRI Parallel Imaging Techniques - SENSE and Grappa",
+        "img_src": "./assets/mri.png",
+        "abstract": "Developed and applied SENSE and Grappa MRI parallel imaging techniques, examining the influence of factors such as increasing R-factor and the number of coils on image reconstruction quality.",
+        "skills": "Matlab-Python",
+        "code": "https://github.com/GSNikhil/mri_parallel_imaging"
+    },
+    {
         "year": 2021,
         "title": "Cowin Bot",
         "img_src": "./assets/cowin_bot.jpg",
