@@ -1,6 +1,22 @@
 let projects = [
     {
         "year": 2023,
+        "title": "(Ongoing) Paint-By-Numbers",
+        "img_src": "https://i.pinimg.com/736x/94/44/ef/9444efb635ae593165e50f7d1985e13c.jpg",
+        "abstract": "Paint-by-numbers is similar to a kid's coloring book. The goal is take any image as an input, identify regions and colors in the image and generate an outline image with numbers marked inside each region. The color pallette is also generated so a user can print the outline image on a canvas and paint it up into real-looking paintings.",
+        "skills": "Python-Image Processing-K Means",
+        "code": "",
+    },
+    {
+        "year": 2023,
+        "title": "Transliteration of Hindi Sign Boards to English",
+        "img_src": "",
+        "abstract": "Indian languages are written in a variety of scripts (Brahmi family of scripts, Arabic-derived scripts, and even alphabetic Roman script). This diversity makes it challenging to support mechanisms which are convenient for typing or creating content in these diverse languages and scripts. Most Indian users are comfortable with the Roman keyboard and thus an optimal solution that users find beneficial is automatic transliteration of the romanized input into the native script. The project uses open-source datasets to achieve transliteration of english language into Hindi langugage using LSTMs.",
+        "skills": "Python-PyTorch-RNNs-LSTM",
+        "code": "https://colab.research.google.com/drive/1e90vfJgFzCRBc2eCnxBExsjGl4h1L_am?usp=sharing",
+    },
+    {
+        "year": 2023,
         "title": "Implementing MRI Parallel Imaging Techniques - SENSE and Grappa",
         "img_src": "./assets/mri.png",
         "abstract": "Developed and applied SENSE and Grappa MRI parallel imaging techniques, examining the influence of factors such as increasing R-factor and the number of coils on image reconstruction quality.",
