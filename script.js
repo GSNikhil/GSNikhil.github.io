@@ -1,5 +1,21 @@
 let projects = [
     {
+        "year": 2024,
+        "title": "Star Trail Reversal",
+        "img_src": "https://github.com/GSNikhil/star-trail-removal/blob/main/Data/example.png?raw=true",
+        "abstract": "Astrophotography offers a glimpse into the universe but poses challenges due to low-light conditions and image degradation. Long exposure times are needed to capture faint objects, but this often leads to motion blur, or 'star trails,' caused by Earth's rotation. While star trails can be artistic, the goal is usually to minimize them. Mechanical tracking mounts are traditionally used to counteract Earth's rotation but can be costly for beginners. With advances in smartphone cameras, anyone can capture stars, and the focus is now on using computational imaging to remove star trails while preserving the visibility of stars in long-exposure shots.",
+        "skills": "Python - Image Processing - Deconvolution",
+        "code": "https://github.com/GSNikhil/star-trail-removal",
+    },
+    {
+        "year": 2024,
+        "title": "Image Inpainting",
+        "img_src": "./assets/image_inpainting.png",
+        "abstract": "This project is centered on image inpainting using deep learning, with a focus on extending the Partial Convolutions (PConv) method. The PConv model is re-implemented in PyTorch and its performance is evaluated on the CelebA-HQ dataset. Three key extensions are explored: (1) tuning the mask update with a parameterized threshold, (2) transitioning from a one-shot to a progressive inpainting approach, and (3) applications in super-resolution are investigated. Additionally, an analysis of the relationship between mask size and model loss is conducted. The goal is to improve the effectiveness of image inpainting methods, enabling more realistic and coherent images to be generated.",
+        "skills": "Python - PyTorch",
+        "code": "https://github.com/GSNikhil/pconv_inpainting",
+    },
+    {
         "year": 2023,
         "title": "(Ongoing) Paint-By-Numbers",
         "img_src": "https://i.pinimg.com/736x/94/44/ef/9444efb635ae593165e50f7d1985e13c.jpg",
