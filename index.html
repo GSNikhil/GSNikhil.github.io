@@ -19,13 +19,13 @@
                 <table style="width: 100%;">
                     <tr>
                         <td style="text-align: center; padding: 1%;">
-                        <a href="https://www.linkedin.com/in/nikhilgandudi/">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/nikhilgandudi/" target="_blank">LinkedIn</a>
                         </td>
                         <td style="text-align: center; padding: 1%;">
-                        <a href="https://github.com/GSNikhil/">GitHub</a>
+                        <a href="https://github.com/GSNikhil/" target="_blank">GitHub</a>
                         </td>
                         <td style="text-align: center; padding: 1%;">
-                        <a href="https://medium.com/@nikhilgandudi">Medium</a>
+                        <a href="https://medium.com/@nikhilgandudi" target="_blank">Medium</a>
                         </td>
                     </tr>
                     <tr>
@@ -58,6 +58,14 @@
                     <li>
                         <h4>Senior Engineer - Qualcomm (Apr 2025 - Present)</h4>
                         <p>Performance Architecture for Image Signal Processors (ISP)</p>
+                        <ul>
+                            <li>
+                                Engineered a comprehensive performance model for an Image Signal Processing (ISP) pipeline to estimate bandwidth, frequency corners, latency, and memory requirements, achieving an accuracy rate within a 5% error margin.
+                            </li>
+                            <li>
+                                Built and deployed a LangGraph-powered AI assistant to streamline ISP workflows, integrated a RAG agent for automated Q&A alongside a specialized analysis agent to build, evaluate, and query historical performance metrics for custom camera pipelines.
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <h4>Platform Architecture Intern - Apple (Jun 2024 - Sept 2024)</h4>
@@ -95,7 +103,7 @@
                 <h2>Publications</h2>
                 <ol>
                     <li>
-                        <h4><i>NeurIPS Spotlight Paper</i> - <a href="https://arxiv.org/abs/2505.17358">Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues</a></h4>
+                        <h4><i>NeurIPS Spotlight Paper</i> - <a href="https://arxiv.org/abs/2505.17358" target="_blank">Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues</a></h4>
                         <p>Chinmay Talegaonkar, <b>Nikhil Gandudi Suresh</b>, Zachary Novack, Yash Belhe, Priyanka Nagasamudra, Nicholas Antipa</p>
                         <img src="assets/marigold_paper.jpg" style="width: 75%;">
                         <p>We capture two images of a scene from the same viewpoint using a camera focused at a fixed distance: a sharp, all-in-focus image (using a high F-stop number) and a defocused image (using a lower F-stop number to introduce blur). Given the sharp image and an initial learnable noise vector representing depth, the Marigold framework estimates a relative depth map. Importantly, Marigold itself is a fixed, training-free framework—its architecture and operations do not change during optimization.
@@ -106,7 +114,7 @@ Training is guided by minimizing the L2 loss between the synthesized defocused i
                     </li>
 
                     <li>
-                        <h4><a href="https://ieeexplore.ieee.org/document/10091013">Efficient Compression Technique For Large Size Binary Sparse Matrix Using Modified Run Length Encoding For Memory Constraint Embedded Systems</a></h4>
+                        <h4><a href="https://ieeexplore.ieee.org/document/10091013" target="_blank">Efficient Compression Technique For Large Size Binary Sparse Matrix Using Modified Run Length Encoding For Memory Constraint Embedded Systems</a></h4>
                         <p><b>Nikhil Gandudi Suresh</b>, Puneet Pandey, Manjit Hota, Manish Goel</p>
                         <p>Reserved tokens for run-lengths longer than range supported with a given number of bits</p>
                     </li>
@@ -118,12 +126,24 @@ Training is guided by minimizing the L2 loss between the synthesized defocused i
                 <h2>Projects</h2>
                 <ol>
                     <li>
-                        <h4><a href="https://github.com/GSNikhil/star-trail-removal">Star Trail Reversal</a></h4>
+                        <h4><a href="https://github.com/GSNikhil/star-trail-removal" target="_blank">Star Trail Reversal</a></h4>
                         <img src="https://raw.githubusercontent.com/GSNikhil/star-trail-removal/refs/heads/main/Data/example.png" style="width: 50%;">
                         <p>Astrophotography offers a glimpse into the universe but poses challenges due to low-light conditions and image degradation. Long exposure times are needed to capture faint objects, but this often leads to motion blur, or 'star trails,' caused by Earth's rotation. While star trails can be artistic, the goal is usually to minimize them. Mechanical tracking mounts are traditionally used to counteract Earth's rotation but can be costly for beginners. With advances in smartphone cameras, anyone can capture stars, and the focus is now on using computational imaging to remove star trails while preserving the visibility of stars in long-exposure shots.</p>
 
                     </li>
+                    <li>
+                        <h4><a href="https://colab.research.google.com/drive/1Qv02o86qvhALIt-5Qf73QsMf0VDWzKDq?usp=sharing" target="_blank">Build and Train a Small Langugage Model from Scratch</a></h4>
+                        <img src="assets\project_slm.png" style="width: 40%;">
+                        <p>I engineered a custom Small Language Model (SLM) architecture from scratch using PyTorch, specifically tailored to classify and generate dialogue based on the sitcom <em>Friends</em>. The system utilizes a dual-step architecture with a 512-token context window: first, a 20M parameter classification model analyzes the conversational context to predict which of the six main characters is most likely to speak next. Once the speaker is determined, the prompt is routed to one of six dedicated 50M parameter generative models—each fine-tuned exclusively on a specific character's lines—to produce highly authentic, character-specific dialogue.</p>
+                    </li>
+
+                    <li>
+                        <h4><a href="https://github.com/AnandK27/CUDAOpticalFlow" target="_blank">Estimating Optical Flow using GPU</a></h4>
+                        <img src="assets\cuda_optical_flow.png" style="width: 40%;">
+                        <p>Lucas-Kanade method using CUDA programming in C++. Optimized performance by profiling kernels, ensuring coalesced memory access, minimizing bank conflicts, and increasing occupancy.</p>
+                    </li>
                 </ol>
+
             </div>
         </div>
     </body>
